@@ -35,6 +35,6 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: paparazzi-report
-          path: app/build/reports/paparazzi/debug/
+          name: index.html
+          path: app/build/reports/tests/testDebugUnitTest/
           if-no-files-found: ignore
