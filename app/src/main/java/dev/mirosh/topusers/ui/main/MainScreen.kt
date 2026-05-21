@@ -315,7 +315,8 @@ fun ListItemWithShortNameNotFollowing() {
         id = 1,
         displayName = "Nick Mirosh",
         reputation = "1000k",
-        profileImage = ""
+        profileImage = "",
+        following = true
     )
     ListItem(user = userUIModel) {}
 }
