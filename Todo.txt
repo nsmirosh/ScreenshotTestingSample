@@ -1,2 +1,0 @@
-- differentiate between server and network error
-//TODO change to items + keys in the user list
